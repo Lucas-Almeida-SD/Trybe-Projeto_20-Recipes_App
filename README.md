@@ -8,7 +8,7 @@ A base de dados são 2 APIs distintas, uma para comidas e outra para bebidas.
 
 O layout tem como foco dispositivos móveis, resolução de tela de `360 x 640` (360 pixels de largura por 640 pixels de altura).
 
-<div style="text-align: center">
+<div style="width: 100%; text-align: center">
   <img src="./Recipes_App.gif" alt="Recipes App" />
 </div>
 
