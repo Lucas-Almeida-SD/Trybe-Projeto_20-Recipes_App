@@ -2,6 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import PropTypes from 'prop-types';
 import DrinkDetails from '../Components/DrinkDetails';
 import recipesContext from '../Context/MyContext';
+import Loading from '../Components/Loading';
 
 function DetailsDrinkRecipes({ match }) {
   const [drinkDetails, setDrinkDetails] = useState();
@@ -35,7 +36,7 @@ function DetailsDrinkRecipes({ match }) {
   return (
     <div>
       {loading
-        ? <h1>Loading...</h1>
+        ? <Loading />
         : <DrinkDetails drinkDetails={ drinkDetails } recommendation={ foods } />}
     </div>
   );
