@@ -8,6 +8,8 @@ A base de dados são 2 APIs distintas, uma para comidas e outra para bebidas.
 
 O layout tem como foco dispositivos móveis, resolução de tela de `360 x 640` (360 pixels de largura por 640 pixels de altura).
 
+![Recipes App](./Recipes_App.gif)
+
 ## Como executar
 
 Clone o projeto e acesse a pasta do mesmo.
