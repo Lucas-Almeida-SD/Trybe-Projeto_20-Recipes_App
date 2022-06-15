@@ -66,6 +66,10 @@
   font-weight: 100;
 }
 
+.form-div form div {
+  width: 100%;
+}
+
 .form-div form div input {
   border: 1px solid rgb(206, 212, 218);
   border-radius: 4px;
